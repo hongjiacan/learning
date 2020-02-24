@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# 打印99乘法表
+
+
+for i in range(1,10):
+	for j in range(1,i+1):
+		# print end='' 把换行符替换成空字符，不换行
+		print('{}x{}={}\t'.format(i, j, i*j), end='')
+	print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
